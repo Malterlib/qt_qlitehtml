@@ -109,3 +109,4 @@ compile_commands.json
 # qbs builds
 /*-debug/
 /*-release/
+/External.MRepoState

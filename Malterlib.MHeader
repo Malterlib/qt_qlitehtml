@@ -1,0 +1,13 @@
+
+%Repository "litehtml"
+{
+	Repository
+	{
+		Submodule false
+		Type "External"
+		UpdateSubmodules true
+		Location "src/3rdparty/litehtml"->MakeAbsolute()
+		Remotes =+ {Name: "upstream", URL: "https://github.com/litehtml/litehtml.git", Write: false}
+		DefaultUpstreamBranch "master"
+	}
+}
